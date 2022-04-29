@@ -6,7 +6,7 @@ from jose import jwt
 app = FastAPI()
 
 
-###Hashing password
+###Hashing password###
 pw_context = CryptContext(schemes=['bcrypt'], deprecated="auto")
 
 
